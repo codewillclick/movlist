@@ -4,7 +4,7 @@ A set of tools to compute moving functions over an input stream.
 ### movlist.rotlist
 ##### (movlist.rot.rotlist)
 
-A list of a set size that rotates elements in as add() is called.  Think of it as a queue which's size never changes, and always calls a pop() with a push() (or a dequeue() with an enqueue()).
+A list of a set size that rotates elements in as add() is called.  Think of it as a queue which's size never changes, and always calls a dequeue() with an enqueue().
 
 ### movlist.avglist
 ##### (movlist.avg.avglist)
